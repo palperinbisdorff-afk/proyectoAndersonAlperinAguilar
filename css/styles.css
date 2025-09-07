@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-.body1{
+body{
     font-family: "Raleway", sans-serif;
 
 }
@@ -92,7 +92,7 @@
     margin-right: 15px;
 }
 
-.categorias a{
+a{
     text-decoration: none;
     color: rgb(45, 58, 58);
 }
@@ -147,6 +147,51 @@ article{
     margin-bottom: 10px;
     text-align: center;
 }
+
+/* css register */
+
+.body2{
+    background-image: url(../img/fondo-body.png);
+}
+
+.main-register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h1-register{
+    margin-top: 30px;
+}
+
+.sec-register{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.f-register{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: #acd3ffb9;
+    padding: 25px;
+    font-size: 15px;
+}
+
+.f-register div{
+    margin-bottom: 15px;
+}
+
+.f-register button{
+    font-weight: 700;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.f-register a{
+    font-style: italic;
+}
+
 
 
 @media (max-width: 450px){
