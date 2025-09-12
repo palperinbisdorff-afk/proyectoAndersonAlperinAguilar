@@ -7,21 +7,26 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body class="body2">
-    <header class="hh">
+     <header class="hh">
         <div class="logo">
             <img src="./img/logo.png" alt="logo">
         </div>
 
-        <div class="buscar">
+        <form action="search-results.html" method="get">
             <label for="buscarr">Buscar:</label>
             <input id="buscarr" type="text">
-            <button type="button">Buscador</button>
-        </div>
+            <button type="submit">Buscador</button>
+        </form>
 
-        <div class="login">
-            <a href="#" class="boton">Login</a>
-            <a href="#" class="boton">Register</a>
-        </div>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="./login.html" class="boton">Login</a></li>
+                    <li><a href="./register.html" class="boton">Register</a></li>
+                </ul>
+            </nav>
+        </section>
+
     </header>
 
     <main class="main-register">
