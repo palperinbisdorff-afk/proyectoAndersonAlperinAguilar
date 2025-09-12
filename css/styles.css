@@ -228,26 +228,26 @@ article{
 
 /*css_login*/
 
-.body2{
+.body3{
     background-image: url(../img/fondo-body.png);
 }
 
-.main-register{
+.main-login{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.h1-register{
+.h1-login{
     margin-top: 30px;
 }
 
-.sec-register{
+.sec-login{
     text-align: center;
     margin-top: 30px;
 }
 
-.f-register{
+.f-login{
     display: flex;
     flex-direction: column;
     border-radius: 20px;
@@ -256,17 +256,7 @@ article{
     font-size: 15px;
 }
 
-.f-register div{
-    margin-bottom: 15px;
-}
-
-.f-register button{
-    font-weight: 700;
-    padding: 7px;
-    border-radius: 10px;
-}
-
-.f-register a{
+.f-login a{
     font-style: italic;
 }
 
