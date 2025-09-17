@@ -264,8 +264,19 @@ article{
     font-size: 15px;
 }
 
+.f-login div{
+    margin-bottom: 15px;
+}
+
+.f-login button{
+    font-weight: 700;
+    padding: 7px;
+    border-radius: 10px;
+}
+
 .f-login a{
     font-style: italic;
+    color: rgba(0, 0, 255, 0.61)
 }
 
 .boton{
@@ -312,4 +323,61 @@ article{
 
 .vermas{
     color: orange;
+}
+
+/*css_category*/
+
+body{
+    font-family: "Raleway", sans-serif;
+
+}
+
+.hh{
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 1px solid;
+    background-color: orange;
+}
+
+
+.logo{
+    width: 160px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.logo img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.buscar{
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    margin-right: 15px;
+    padding: 0 8px;
+    width: 100%;
+}
+
+.buscar label{
+    margin-right: 10px;
+    font-size: 15px;
+    color: rgb(68, 34, 239);
+}
+
+.buscar input{
+    width: 100%;
+    border: none;
+}
+
+.buscar button{
+    border: 1px solid;
+    background-color:#333 ;
+    padding: 10px 15px;
+     color: white;
 }
