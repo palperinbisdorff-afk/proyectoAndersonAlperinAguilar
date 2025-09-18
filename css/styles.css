@@ -21,9 +21,10 @@ body{
     background-color: orange;
 }
 
-.artfoto a {
+.artfoto p {
     color: white;
 }
+
 
 
 .logo{
@@ -59,6 +60,8 @@ body{
     width: 100%;
     border: none;
 }
+
+
 
 .buscar button{
     border: 1px solid;
