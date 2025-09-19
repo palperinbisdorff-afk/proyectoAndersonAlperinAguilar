@@ -14,7 +14,17 @@ body{
     align-items: center;
     padding: 10px 15px;
     border-bottom: 1px solid;
+    background-color: orange;;
 }
+
+.vermas{
+    background-color: orange;
+}
+
+.artfoto p {
+    color: white;
+}
+
 
 
 .logo{
@@ -51,6 +61,8 @@ body{
     border: none;
 }
 
+
+
 .buscar button{
     border: 1px solid;
     background-color:#333 ;
@@ -83,6 +95,7 @@ body{
 .main{
     display: flex;
     padding: 15px;
+    background-color: rgb(8, 7, 78);
 }
 
 .categorias{
@@ -94,7 +107,7 @@ body{
 
 a{
     text-decoration: none;
-    color: rgb(45, 58, 58);
+    color: white;
 }
 
 .categorias ul{
@@ -118,15 +131,19 @@ article{
     flex-wrap: wrap;   
 }
 
-.titulo{
+.title{
     margin: 16px 0 8px;
+    color: orange;
 }
 
 .mejprod .foto{
     height: 100px;
     border: 1px solid;
-    margin-right: 15px;
-    margin-bottom: 15px;
+    margin: 10px;
+    width: 180px;     
+    height: 180px;
+     text-align: center;
+    display: block; 
 }
 
 .masprod .items{
@@ -138,15 +155,13 @@ article{
 
 .masprod .foto2{
     border: 1px solid;
-    display: inline-block;
-    width: 20%;
-    height: 100px;
     font-size: 15px;
-    vertical-align: top;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    margin: 10px;
     text-align: center;
-}
+    width: 180px;     
+    height: 180px;
+    display: block; 
+} 
 
 /* css register */
 
@@ -180,6 +195,10 @@ article{
 
 .f-register div{
     margin-bottom: 15px;
+}
+
+.ytc{
+    color: rgba(0, 0, 255, 0.61)
 }
 
 .f-register button{
@@ -224,4 +243,152 @@ article{
     .masprod .foto2{
         width: 45%;
     }
+}
+
+/*css_login*/
+
+.body3{
+    background-image: url(../img/fondo-body.png);
+}
+
+.main-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h1-login{
+    margin-top: 30px;
+}
+
+.sec-login{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.f-login{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: #acd3ffb9;
+    padding: 25px;
+    font-size: 15px;
+}
+
+.f-login div{
+    margin-bottom: 15px;
+}
+
+.f-login button{
+    font-weight: 700;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.f-login a{
+    font-style: italic;
+    color: rgba(0, 0, 255, 0.61)
+}
+
+.boton{
+    text-decoration: none;
+    list-style: none;
+}
+
+
+@media (max-width: 450px){
+    .hh{
+        flex-wrap: wrap;
+    }
+
+    .logo{
+        width: 120px;
+        height: 45px;
+        margin-bottom: 10px;
+    }
+
+    .buscar{
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .login .boton{
+        padding: 10px 12px;
+        display: inline-block;
+
+    }
+
+    .mejprod .foto{
+        width: 45%;
+    }
+
+    .masprod .foto2{
+        width: 45%;
+    }
+}
+
+.h3t{
+    color: white;
+}
+
+.vermas{
+    color: orange;
+}
+
+/*css_category*/
+
+body{
+    font-family: "Raleway", sans-serif;
+
+}
+
+.hh{
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 1px solid;
+    background-color: orange;
+}
+
+
+.logo{
+    width: 160px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.logo img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.buscar{
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    margin-right: 15px;
+    padding: 0 8px;
+    width: 100%;
+}
+
+.buscar label{
+    margin-right: 10px;
+    font-size: 15px;
+    color: rgb(68, 34, 239);
+}
+
+.buscar input{
+    width: 100%;
+    border: none;
+}
+
+.buscar button{
+    border: 1px solid;
+    background-color:#333 ;
+    padding: 10px 15px;
+     color: white;
 }
