@@ -6,23 +6,23 @@
 
 body{
     font-family: "Raleway", sans-serif;
-
 }
 
 .hh{
     display: flex;
     align-items: center;
     padding: 10px 15px;
-    border-bottom: 1px solid;
-    background-color: orange;;
+    border-bottom: 1px;
+    background-color: #a97458;
 }
 
 .vermas{
-    background-color: orange;
+    background-color:#a97458;
 }
 
 .artfoto p {
     color: black;
+    margin-top: 8px;
 }
 
 .artfoto img{
@@ -75,7 +75,7 @@ body{
 }
 
 .artfoto .vermas{
-    background-color: orange;
+    background-color: #a97458;;
     border: none;
     padding: 8px 12px;
     border-radius: 5px;
@@ -114,7 +114,7 @@ body{
 .main{
     display: flex;
     padding: 15px;
-    background-color: rgb(8, 7, 78);
+    background-color: #f2f2f4;
 }
 
 .categorias{
@@ -147,7 +147,7 @@ article{
 
 .title{
     margin: 16px 0 8px;
-    color: orange;
+    color: #a97458;
 }
 
 .items {
@@ -163,7 +163,7 @@ article{
     padding: 10px;
     width: 220px;
     margin: 10px;
-    color: black;
+    
 }
 
 .masprod .items{
@@ -183,10 +183,14 @@ article{
     display: block; 
 } 
 
+footer{
+    background-color: #f2f2f4;
+}
+
 /* css register */
 
 .body2{
-    background-image: url(../img/fondo-body.png);
+   background-color: #f2f2f4;
 }
 
 .main-register{
@@ -268,7 +272,7 @@ article{
 /*css_login*/
 
 .body3{
-    background-image: url(../img/fondo-body.png);
+    background-color: #f2f2f4;
 }
 
 .main-login{
@@ -307,7 +311,7 @@ article{
 
 .f-login a{
     font-style: italic;
-    color: rgba(0, 0, 255, 0.61)
+    color:  #f2f2f4;
 }
 
 .boton{
@@ -356,7 +360,7 @@ article{
 }
 
 .vermas{
-    color: orange;
+    color: #a97458;
 }
 
 /*css_category*/
@@ -366,13 +370,7 @@ body{
 
 }
 
-.hh{
-    display: flex;
-    align-items: center;
-    padding: 10px 15px;
-    border-bottom: 1px solid;
-    background-color: orange;
-}
+
 
 
 .logo{
@@ -416,6 +414,18 @@ body{
      color: white;
 }
 
+.categorias li {
+    list-style: none;
+}
+
+.categorias a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    background-color: #f2f2f4;
+}
 
 /* css product*/
 
