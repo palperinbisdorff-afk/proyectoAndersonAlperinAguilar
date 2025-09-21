@@ -6,28 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital@0;1&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header class="hh">
         <div class="logo">
-            <img src="./img/shopify_logo_horizontal_darkblue_transparent.png" alt="logo">
+            <a href="index.html">
+                <img src="./img/shopify_logo_horizontal_darkblue_transparent.png" alt="logo">
+            </a>
         </div>
 
         <form class="buscar" action="search-results.html" method="get">
-            <label for="buscar">Buscar:</label>
             <input id="buscar" type="text">
-            <button type="submit">Enter</button>
+            <button type="submit">
+                <img src="./img/lupa (2).png" alt="lupa">
+            </button>
         </form>
 
-        <section>
-            <nav>
-                <ul>
-                    <li class="boton"><a href="./login.html">Login</a></li>
-                    <li class="boton"><a href="./register.html">Register</a></li>
-                </ul>
-            </nav>
-        </section>
+        <nav>
+            <ul class="log">
+                <li class="boton-header"><a href="./login.html">LOGIN</a></li>
+                <li class="boton-header"><a href="./register.html">REGISTER</a></li>
+            </ul>
+        </nav>
 
     </header>
 
@@ -60,12 +64,11 @@
                 <li><a href="./category.html">WOMENS SHOES</a></li>
                 <li><a href="./category.html">WOMENS WATCHES</a></li>
             </ul>
-
         </nav>
 
-
-        <section class="productos">
-            <h2 class="title">Productos más destacados - Beauty -</h1>
+    
+        <section class="mejprod">
+            <h2 class="title">Productos destacados - Beauty -</h1>
                 <div class="items">
                     <article class="artfoto">
                         <img src="./img/serum.webp" alt="serum">
@@ -118,8 +121,8 @@
     </main>
 
     <footer>
-        <p>Tienda Shopify. Todos los derechos reservados.</p>
-        <h4>Aguilar Quesada Camila, Alperin Bisdorff Priscila, Andersson Franco</h4>
+      <p>TIENDA SHOPIFY. TODOS LOS VALORES RESERVADOS</p>
+      <h4>AGUILAR QUESADA CAMILA, ALPERIN BISDORFF PRISCILA, ANDERSSON FRANCO</h4>
     </footer>
 
 </body>
