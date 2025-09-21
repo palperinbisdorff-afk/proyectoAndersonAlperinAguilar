@@ -372,11 +372,12 @@ a{
     width: 700px;
     margin-right: 30px;
     align-items: center;
+    padding: 30px;
+    border-radius: 10px;
 }
 
 .thermomix2{
-    background-color: whitesmoke;
-    color: whitesmoke;
+    background-color: #f8f4ed;
     
 }
 
