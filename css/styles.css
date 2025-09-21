@@ -408,11 +408,43 @@ a{
 
 .h3t{
     color: black;
-    font-size: 50px;
+    font-size: 45px;
     font-weight: bold;
     margin-bottom: 15px;
+    margin-top: 15px;
 }
 
+.resenas{
+    display: block;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+}
+
+.review{
+    font-size: 24px;
+    color: #333;
+    text-align: left;
+    border-bottom: 2px solid rgb(255, 0, 140);
+    padding-bottom: 10px;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+
+.sinfoto{
+    width: 50px;
+    align-items: flex-start;
+    border-radius: 10px;
+}
+
+.nombre{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
 /* css footers */
 
 footer{
@@ -421,4 +453,15 @@ footer{
     font-size: 15px;
     text-align: center;
     color: white;
+}
+
+/*Search*/
+
+.items1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.items1 article{
+    box-sizing: border-box;
 }
