@@ -9,6 +9,11 @@ body{
     background-image: url(../img/fondo.png);
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 /* css de los headers */
 
 .hh{
@@ -37,7 +42,7 @@ body{
 .buscar{
     display: flex;
     align-items: center;
-    border: 1px solid;
+    color: #e4cab5;
     margin-right: 15px;
     padding: 0 8px;
     width: 100%;
@@ -46,34 +51,31 @@ body{
 .buscar label{
     margin-right: 10px;
     font-size: 15px;
-    color: rgb(68, 34, 239);
+    color: black;
+
 }
 
 .buscar input{
     width: 100%;
-    border: none;
+    border-radius: 10px;
+    padding: 6px;
 }
 
 .buscar button{
-    border: 1px solid;
     background-color:#333 ;
     padding: 10px 15px;
+    border-radius: 10px;
+    margin: 10px;
     color: white;
 }
 
-.boton{
+.boton-header{
     margin-left: 10px;
-    text-decoration: none;
-    color: rgb(68, 34, 239);
+    list-style: none;
 }
 
 
-/* css home */
-
-
-
-
-
+/* css home y category */
 
 
 .vermas{
@@ -108,11 +110,6 @@ body{
     border-radius: 5px;
 }
 
-
-
-
-
-/* css index main */
 .main-home{
     display: flex;
     padding: 15px;
@@ -354,61 +351,6 @@ article{
     color: #a97458;
 }
 
-/*css_category*/
-
-.logo{
-    width: 160px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 15px;
-}
-
-.logo img{
-    max-height: 100%;
-    max-width: 100%;
-}
-
-.buscar{
-    display: flex;
-    align-items: center;
-    border: 1px solid;
-    margin-right: 15px;
-    padding: 0 8px;
-    width: 100%;
-}
-
-.buscar label{
-    margin-right: 10px;
-    font-size: 15px;
-    color: rgb(68, 34, 239);
-}
-
-.buscar input{
-    width: 100%;
-    border: none;
-}
-
-.buscar button{
-    border: 1px solid;
-    background-color:#333 ;
-    padding: 10px 15px;
-     color: white;
-}
-
-.categorias li {
-    list-style: none;
-}
-
-.categorias a{
-    text-decoration: none;
-    color: black;
-}
-
-footer{
-    background-color: #f2f2f4;
-}
 
 /* css product*/
 
@@ -454,6 +396,7 @@ footer{
     color: black;
     font-size: 20px;
 }
+
 
 /* css footers */
 footer{
