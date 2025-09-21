@@ -6,38 +6,18 @@
 
 body{
     font-family: "Raleway", sans-serif;
+    background-image: url(../img/fondo.png);
 }
+
+/* css de los headers */
 
 .hh{
     display: flex;
+    justify-content: space-between;
     align-items: center;
     padding: 10px 15px;
     border-bottom: 1px;
-    background-color: #a97458;
-}
-
-.vermas{
-    background-color:#a97458;
-}
-
-.artfoto p {
-    color: black;
-    margin-top: 8px;
-}
-
-.artfoto img{
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 6px;
-    margin-bottom: 8px;
-
-}
-
-.artfoto h3 {
-    font-size: 16px;
-    margin-bottom: 5px;
-    color: #555;
+    background-color: #e4cab5;
 }
 
 .logo{
@@ -74,47 +54,68 @@ body{
     border: none;
 }
 
-.artfoto .vermas{
-    background-color: #a97458;;
-    border: none;
-    padding: 8px 12px;
-    border-radius: 5px;
-}
-
-
 .buscar button{
     border: 1px solid;
     background-color:#333 ;
     padding: 10px 15px;
-     color: white;
-}
-
-.login1{
-    display: flex;
-    margin-left: 10px
+    color: white;
 }
 
 .boton{
     margin-left: 10px;
     text-decoration: none;
     color: rgb(68, 34, 239);
-    }
-
-.login .buscarr {
-    width: 120px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid;
-    text-decoration: none;
-    margin-left: 15px;
 }
 
-.main{
+
+/* css home */
+
+
+
+
+
+
+
+.vermas{
+    background-color:#a4826d;
+}
+
+.artfoto p {
+    color: black;
+    margin-top: 8px;
+}
+
+.artfoto img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 8px;
+
+}
+
+.artfoto h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+
+.artfoto .vermas{
+    background-color: #a4826d;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+
+
+
+
+/* css index main */
+.main-home{
     display: flex;
     padding: 15px;
-    background-color: #f2f2f4;
 }
 
 .categorias{
@@ -122,11 +123,6 @@ body{
     border: 1px solid;
     padding: 15px;
     margin-right: 15px;
-}
-
-.artfoto .vermas a{
-    text-decoration: none;
-    color: black;
 }
 
 .categorias ul{
@@ -139,18 +135,28 @@ body{
     margin-bottom: 7px;
 }
 
+.artfoto .vermas a{
+    text-decoration: none;
+    color: black;
+}
+
 article{
-     width: 100%;
+    width: 100%;
     border: 1px solid;
     padding: 15px;
 }
 
 .title{
     margin: 16px 0 8px;
-    color: #a97458;
+    color: #a4826d;
 }
 
-.items {
+.contenedor-prod{
+    display: flex;
+    flex-direction: column;
+}
+
+.mejprod .items{
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -163,7 +169,6 @@ article{
     padding: 10px;
     width: 220px;
     margin: 10px;
-    
 }
 
 .masprod .items{
@@ -183,15 +188,7 @@ article{
     display: block; 
 } 
 
-footer{
-    background-color: #f2f2f4;
-}
-
 /* css register */
-
-.body2{
-   background-color: #f2f2f4;
-}
 
 .main-register{
     display: flex;
@@ -235,8 +232,6 @@ footer{
     font-style: italic;
 }
 
-
-
 @media (max-width: 450px){
     .hh{
         flex-wrap: wrap;
@@ -270,10 +265,6 @@ footer{
 }
 
 /*css_login*/
-
-.body3{
-    background-color: #f2f2f4;
-}
 
 .main-login{
     display: flex;
@@ -364,14 +355,6 @@ footer{
 }
 
 /*css_category*/
-
-body{
-    font-family: "Raleway", sans-serif;
-
-}
-
-
-
 
 .logo{
     width: 160px;
@@ -472,3 +455,11 @@ footer{
     font-size: 20px;
 }
 
+/* css footers */
+footer{
+    background-color: #e4cab5;
+    height: 100%;
+    padding: 40px;
+    font-size: 15px;
+    text-align: center;
+}

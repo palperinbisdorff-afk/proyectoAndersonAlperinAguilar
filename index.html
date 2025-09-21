@@ -1,37 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body class="body1">
+
+<body>
     <header class="hh">
         <div class="logo">
             <img src="./img/shopify_logo_horizontal_darkblue_transparent.png" alt="logo">
         </div>
 
-        <form action="search-results.html" method="get">
-            <label for="buscarr">Buscar:</label>
-            <input id="buscarr" type="text">
+        <form class="buscar" action="search-results.html" method="get">
+            <label for="buscar">Buscar:</label>
+            <input id="buscar" type="text">
             <button type="submit">Enter</button>
         </form>
 
         <section>
             <nav>
-                <ul >
-                    <li class="boton"><a href="./login.html" >Login</a></li>
+                <ul>
+                    <li class="boton"><a href="./login.html">Login</a></li>
                     <li class="boton"><a href="./register.html">Register</a></li>
                 </ul>
             </nav>
         </section>
-
     </header>
 
-    <main class="main">
+    <main class="main-home">
 
-         <nav class="categorias">
+        <nav class="categorias">
             <ul>
                 <li><a href="./category.html">BEAUTY</a></li>
                 <li><a href="./category.html">FRAGANCES</a></li>
@@ -59,96 +60,88 @@
                 <li><a href="./category.html">WOMENS SHOES</a></li>
                 <li><a href="./category.html">WOMENS WATCHES</a></li>
             </ul>
-         </nav>
-           
-         
-         <article>
-                <section class="mejprod">
-            <h2 class="title">Productos mas vendidos</h1>
-            <div class="items">
+        </nav>
 
-            
-            <article class="artfoto">
-            <img class="foto" src="./img/perfumecher.webp" alt="perfume">
-            <h3 class="h3t">Perfume Cher 100ml</h3>
-            <p>ideal para el día a día, con notas de lavanda <br> $16.000</p>
-           <button class="vermas"><a href="./product.html">Ver más</a></button>
-           </article>
-            
-           
-           <article class="artfoto">
-            <img  class="foto" src="./img/sillagamer.webp" alt="silla">
-            <h3 class="h3t">Silla gamer</h3>
-            <p>almohadones premium y asiento plegable <br> $120.000</p>
-           <button class="vermas"><a href="./product.html">Ver más</a></button>
-           </article>
-           
-            
-            <article class="artfoto">
-            <img class="foto" src="./img/lampara.png" alt="lampara">
-            <h3 class="h3t">Lámpara</h3>
-            <p>lámpara de luz amarilla, relajante para la vista <br> $10.000</p>
-           <button class="vermas"><a href="./product.html">Ver más</a></button>
-            </article>
-            
-            <article class="artfoto">
-            <img class="foto" src="./img/pantalonmujer.jpg" alt="pantalon">
-            <h3 class="h3t">Pantalón para mujer</h3>
-            <p>pantalon de gabardina - 1m largo 40cm ancho <br> $41.000</p>
-           <button class="vermas"><a href="./product.html">Ver más</a></button>
-           </article>
-           
-            
-            <article class="artfoto">
-            <img class="foto" src="./img/mousepc.jpg" alt="mouse">
-            <h3 class="h3t">Mouse Gamer</h3>
-            <p>mouse con luces led incluidas, muy sensible <br> $14.000</p>
-          <button class="vermas"><a href="./product.html">Ver más</a></button>
-          </article>
-           
-            <article class="artfoto">
-            <img class="foto" src="./img/mochila.jpg" alt="mochila">
-            <h3 class="h3t">Mochila</h3>
-            <p>mochila resistente, hasta 10kg <br> $20.000</p>
-            <button class="vermas"><a href="./product.html">Ver más</a></button>
-            </article>
-            
-             <article class="artfoto">
-            <img class="foto" src="./img/espejo.webp" alt="espejo">
-            <h3 class="h3t">Espejo decorativo</h3>
-            <p>espejo 1,50m x 1,20m <br> $35.000</p>
-           <button class="vermas"><a href="./product.html">Ver más</a></button>
-           </article>
-           
-            
-            <article class="artfoto">
-            <img class="foto" src="./img/pelota.webp" alt="pelota">
-            <h3 class="h3t">Pelota de fútbol</h3>
-            <p>pelota de cuero resistente al agua <br> $8.050</p>
-           <button class="vermas"><a href="./product.html">Ver más</a></button>
-           </article>
-            
-            <article class="artfoto">
-            <img class="foto" src="./img/monopatin.jpg" alt="monopatin">
-            <h3 class="h3t">Monopatín eléctrico</h3>
-            <p>monopatín + cargador inalámbrico <br> $499.999</p>
-           <button class="vermas"><a href="./product.html">Ver más</a></button>
-           </article>
-           
-            
-            <article class="artfoto">
-            <img class="foto" src="./img/thermomix.webp" alt="termo">
-            <h3 class="h3t">Thermomix último modelo</h3>
-            <p>robot para cocinar, sencillo y fácil de usar <br> $1.499.999</p>
-           <button class="vermas"><a href="./product.html">Ver más</a></button>
-           </article>
-            </section>
-    
-            </div>
-
-               <section class="masprod">
-                    <h2 class="title">Más productos</h2>
+        <section class="contenedor-prod">
+            <section class="mejprod">
+                <h2 class="title">Productos mas vendidos</h1>
                     <div class="items">
+                        <article class="artfoto">
+                            <img class="foto" src="./img/perfumecher.webp" alt="perfume">
+                            <h3 class="h3t">Perfume Cher 100ml</h3>
+                            <p>ideal para el día a día, con notas de lavanda <br> $16.000</p>
+                            <button class="vermas"><a href="./product.html">Ver más</a></button>
+                        </article>
+
+                        <article class="artfoto">
+                            <img class="foto" src="./img/sillagamer.webp" alt="silla">
+                            <h3 class="h3t">Silla gamer</h3>
+                            <p>almohadones premium y asiento plegable <br> $120.000</p>
+                            <button class="vermas"><a href="./product.html">Ver más</a></button>
+                        </article>
+
+                        <article class="artfoto">
+                            <img class="foto" src="./img/lampara.png" alt="lampara">
+                            <h3 class="h3t">Lámpara</h3>
+                            <p>lámpara de luz amarilla, relajante para la vista <br> $10.000</p>
+                            <button class="vermas"><a href="./product.html">Ver más</a></button>
+                        </article>
+
+                        <article class="artfoto">
+                            <img class="foto" src="./img/pantalonmujer.jpg" alt="pantalon">
+                            <h3 class="h3t">Pantalón para mujer</h3>
+                            <p>pantalon de gabardina - 1m largo 40cm ancho <br> $41.000</p>
+                            <button class="vermas"><a href="./product.html">Ver más</a></button>
+                        </article>
+
+                        <article class="artfoto">
+                            <img class="foto" src="./img/mousepc.jpg" alt="mouse">
+                            <h3 class="h3t">Mouse Gamer</h3>
+                            <p>mouse con luces led incluidas, muy sensible <br> $14.000</p>
+                            <button class="vermas"><a href="./product.html">Ver más</a></button>
+                        </article>
+
+                        <article class="artfoto">
+                            <img class="foto" src="./img/mochila.jpg" alt="mochila">
+                            <h3 class="h3t">Mochila</h3>
+                            <p>mochila resistente, hasta 10kg <br> $20.000</p>
+                            <button class="vermas"><a href="./product.html">Ver más</a></button>
+                        </article>
+
+                        <article class="artfoto">
+                            <img class="foto" src="./img/espejo.webp" alt="espejo">
+                            <h3 class="h3t">Espejo decorativo</h3>
+                            <p>espejo 1,50m x 1,20m <br> $35.000</p>
+                            <button class="vermas"><a href="./product.html">Ver más</a></button>
+                        </article>
+
+                        <article class="artfoto">
+                            <img class="foto" src="./img/pelota.webp" alt="pelota">
+                            <h3 class="h3t">Pelota de fútbol</h3>
+                            <p>pelota de cuero resistente al agua <br> $8.050</p>
+                            <button class="vermas"><a href="./product.html">Ver más</a></button>
+                        </article>
+
+                        <article class="artfoto">
+                            <img class="foto" src="./img/monopatin.jpg" alt="monopatin">
+                            <h3 class="h3t">Monopatín eléctrico</h3>
+                            <p>monopatín + cargador inalámbrico <br> $499.999</p>
+                            <button class="vermas"><a href="./product.html">Ver más</a></button>
+                        </article>
+
+                        <article class="artfoto">
+                            <img class="foto" src="./img/thermomix.webp" alt="termo">
+                            <h3 class="h3t">Thermomix último modelo</h3>
+                            <p>robot para cocinar, sencillo y fácil de usar <br> $1.499.999</p>
+                            <button class="vermas"><a href="./product.html">Ver más</a></button>
+                        </article>
+                    </div>
+            </section>
+
+
+            <section class="masprod">
+                <h2 class="title">Más productos</h2>
+                <div class="items">
                     <img class="foto2" src="./img/computadora.avif" alt="computadora">
                     <img class="foto2" src="./img/anteojosdesol.jpg" alt="anteojosdesol">
                     <img class="foto2" src="./img/cadenita.jpeg" alt="cadenita">
@@ -159,13 +152,19 @@
                     <img class="foto2" src="./img/relojhombre.jpg" alt="relojhombre">
                     <img class="foto2" src="./img/rubor.webp" alt="rubor">
                     <img class="foto2" src="./img/bolsadepapa.webp" alt="bolsadepapa">
-                    </div>
-                </section>
-            </article>
+                </div>
+            </section>
+
+        </section>
+
+
+
     </main>
 
     <footer>
         <p>Tienda Shopify. Todos los derechos reservados.</p>
+        <h4>Aguilar Quesada Camila, Alperin Bisdorff Priscila, Andersson Franco</h4>
     </footer>
 </body>
+
 </html>
