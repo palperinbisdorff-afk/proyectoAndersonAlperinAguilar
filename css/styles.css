@@ -296,6 +296,16 @@ a{
     font-size: 20px;
 }
 
+.categ{
+    width: 9%;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 7px;
+    background-color: rgb(208, 207, 207);
+    margin-top: 10px;
+    text-align: center;
+}
+
 .h3t{
     color: black;
     font-size: 45px;
@@ -337,6 +347,19 @@ a{
     color: black;
     font-size: 18px;
     font-weight: bold;
+
+}
+
+.tags{
+    width: 20%;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 7px;
+    background-color: white;
+    margin-top: 10px;
+    font-size: 17px;
+    box-sizing: border-box;
+
 }
 
 /* CSS Search*/
