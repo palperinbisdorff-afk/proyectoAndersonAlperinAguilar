@@ -390,6 +390,12 @@ a{
     font-style: italic;
 }
 
+#no-results{
+    color: red;
+    display: none;
+    margin-top: 20px;
+}
+
 /* CSS Footers */
 
 footer{
