@@ -194,6 +194,14 @@ a{
     display: block; 
 } 
 
+.artfoto .enstock{
+    color: rgb(26, 205, 26);
+}
+
+.artfoto .sinstock{
+    color: rgba(221, 59, 59, 0.908);
+}
+
 
 /* CSS Register */
 
