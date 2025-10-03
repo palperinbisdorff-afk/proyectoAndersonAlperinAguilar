@@ -62,7 +62,6 @@ a{
     background-color: white;
     border: none;
     border-radius: 10px;
-    font-size: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -434,18 +433,6 @@ footer p{
         flex-wrap: wrap;
     }
 
-    .logo{
-        width: 120px;
-        height: 45px;
-        margin-bottom: 10px;
-    }
-
-    .buscar{
-        display: block;
-        width: 100%;
-        margin: 10px 0;
-    }
-
     .login .boton{
         padding: 10px 12px;
         display: inline-block;
@@ -469,26 +456,18 @@ footer p{
 @media (max-width: 760px){
     .main-home{
         flex-direction: column;
-        align-items: stretch;
     }
 
     .categorias{
         width: 100%;
         margin: 10px 0;
         padding: 12px;
-    }
-
-    .categorias ul{
-        display: flex;
-        flex-wrap: wrap;
-        list-style: none;
-        margin: 0;
-        padding: 0;
+        
     }
 
     .categorias li{
         display: inline-block;
-        margin: 6px 12px 6px 0;
+        margin: 6px 12px 6px 15px;
     }
 
     .logo{
@@ -498,34 +477,44 @@ footer p{
     }
 
     .buscar{
-        display: flex;
-        width: 100%;
+        width: 60%;
         margin: 10px 0;
     }
 
+    .mejprod .title{
+        margin-left: 15px;
+    }
+
+    .masprod .title{
+        margin-left: 15px;
+    }
+
+.contenedor-prod .title{
+    margin-left: 15px;
+}
+
+.contenedor-prod .artfoto{
+    width: 48%;
+    margin: 1%;
+}
+
     .login .boton{
         padding: 10px 12px;
-        display: inline-block;
-
     }
 
     .mejprod .items .artfoto{
         width: 48%;
-        margin: 1%;
-        box-sizing: border-box;
+        margin: 1%; 
     }
 
     .masprod .items .artfoto{
         width: 48%;
         margin: 1%;
-        box-sizing: border-box;
     }
 
     .artfoto img{
-        display: block;
         width: 100%;
         height: 330px;
-
     }
 
   .foto12{
