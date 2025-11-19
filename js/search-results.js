@@ -20,3 +20,20 @@ fetch('https://dummyjson.com/products/categories')
     .catch(function(error){
         console.log("Se detecto un error")
     })
+
+/*El texto “Resultados de búsqueda para: elTérminoPuestoEnElBuscador”.
+
+La lista de resultados que coincidan con el término buscado.
+
+Los resultados de la búsqueda deben permitir navegación hacia sus páginas de detalle.
+
+Si la búsqueda no trae resultados avisar al usuario por pantalla mostrando el texto “No hay resultados para el término: elTérminoPuestoEnElBuscador”.*/
+
+
+let queryString = location.search;
+let queryStringObj = new URLSearchParams(queryString)
+
+queryStringObj.get('buscador');
+
+
+
