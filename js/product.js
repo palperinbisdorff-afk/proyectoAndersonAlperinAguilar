@@ -1,3 +1,11 @@
+
+        /* COSAS QUE FALTAN: 
+        - ACOMODAR EL ESTILO DE LA FOTO
+        - ACOMODOAR EL ESTULO DEL TEXTO 
+        - ACOMODAR FLEXBOX
+        - ACOMODAR EL ESTILO DE LAS REVIEWS */
+
+
 /* navegacion de forma vertical */
 
 let ul = document.querySelector(".categoriasJS")
@@ -49,10 +57,10 @@ fetch(`https://dummyjson.com/products/${producto}`)
         precio.innerText = `$${data.price}`;
 
         let foto = document.querySelector(".foto12");
-        foto.innerHTML = `<img class="foto12" src="${data.images[1]}" alt="">`;
+        foto.src = data.thumbnail;
 
         let fotoHidden = document.querySelector(".fotohidden");
-        fotoHidden.innerHTML = `<img class="fotohidden" src="${data.images[2]}" alt="thermomixrecetas">`;
+        fotoHidden.src = data.thumbnail;
 
         let categoria = document.querySelector(".categ");
         categoria.innerText = `${data.category}`;
@@ -60,14 +68,37 @@ fetch(`https://dummyjson.com/products/${producto}`)
         let stock = document.querySelector(".ultdispo");
         stock.innerText = `Stock disponible: ${data.stock}`;
 
-        let tags = document.querySelector(".tags");
-        tags.innerText = `${data.tags}`;
+        /* tags */
+        let tagsLista = data.tags;
+        let tags = document.querySelector(".tagsjs");
+        let tags2 = "";
+        
+        for (let i = 0; i < data.tags.length; i++) {
+            console.log(data.tags);
+            tags2 += `<p class="tags">${data.tags[i]}</p>`
+        }
+        console.log(tags2);
+        tags.innerHTML = tags2;
+
+        /* reviews */
+
+        let reseñasLista = data.reviews;
+        let reseñas = document.querySelector(".resenas");
+        let reseñas2 = "";
+        
+        for (let i = 0; i < data.reviews.length; i++) {
+            console.log(data.reviews);
+            reseñas2 += `<img class="sinfoto" src="./img/12225881.png" alt="sinfoto">
+                <p class="nombre"> ${data.reviews[i].reviewerName} ⭐️⭐️⭐️⭐️⭐︎</p>
+                <p> ${data.reviews[i].rating} </p>
+                <p class="fecha">${data.reviews[i].date}</p> 
+                <p>${data.reviews[i].comment}</p>`
+        }
+        console.log(reseñas2);
+        reseñas.innerHTML = reseñas2;
+
 
     })
     .catch(function (error) {
         console.log("Se detecto un error", error)
     })
-
-    
-
-
