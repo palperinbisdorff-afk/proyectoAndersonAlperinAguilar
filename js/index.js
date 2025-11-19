@@ -66,7 +66,7 @@ fetch("https://dummyjson.com/products/category/smartphones")
                             <p>${data.products[i].description}</p>
                             <p class="enstock">${data.products[i].availabilityStatus}</p>
                             <p>$${data.products[i].price}</p>
-                            <button class="vermas"><a href="./product.html">Ver más</a></button>
+                            <button class="vermas"><a href="./product.html?id=${data.products[i].id}">Ver más</a></button>
                         </article>`
             }
             titulo1.innerHTML = data.products[0].category
@@ -94,12 +94,12 @@ fetch("https://dummyjson.com/products/category/kitchen-accessories")
         for (let i = 0; i < 10; i++) {
             console.log(data.products);
             productos2 += `<article class="artfoto">
-                            <img class="foto" src="${data.products[i].images[0]}" alt="perfume">
+                            <img class="foto" src="${data.products[i].images[0]}" alt = "producto">
                             <h3>${data.products[i].title}</h3>
                             <p>${data.products[i].description}</p>
                             <p class="enstock">${data.products[i].availabilityStatus}</p>
                             <p>$${data.products[i].price}</p>
-                            <button class="vermas"><a href="./product.html">Ver más</a></button>
+                            <button class="vermas"><a href="./product.html?id=${data.products[i].id}">Ver más</a></button>
                         </article>`
             }
             titulo2.innerHTML = data.products[0].category
