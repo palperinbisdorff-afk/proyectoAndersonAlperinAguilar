@@ -46,31 +46,28 @@ fetch(`https://dummyjson.com/products/${producto}`)
         descripcion.innerText = `${data.description}`;
 
         let precio = document.querySelector(".preciop");
-        precio.innerText = `${data.price}`;
+        precio.innerText = `$${data.price}`;
 
         let foto = document.querySelector(".foto12");
-        foto.innerHTML = `${data.images[1]}`;
+        foto.innerHTML = `<img class="foto12" src="${data.images[1]}" alt="">`;
 
         let fotoHidden = document.querySelector(".fotohidden");
-        fotoHidden.innerHTML = `${data.images[2, 3]}`;
+        fotoHidden.innerHTML = `<img class="fotohidden" src="${data.images[2]}" alt="thermomixrecetas">`;
 
-
-        let categoria = document.queryString(".categ");
+        let categoria = document.querySelector(".categ");
         categoria.innerText = `${data.category}`;
 
         let stock = document.querySelector(".ultdispo");
-        stock.innerText = `${data.stock}`;
+        stock.innerText = `Stock disponible: ${data.stock}`;
 
         let tags = document.querySelector(".tags");
         tags.innerText = `${data.tags}`;
 
-
-
-
-
     })
     .catch(function (error) {
-        console.log("Se detecto un error")
+        console.log("Se detecto un error", error)
     })
+
+    
 
 
