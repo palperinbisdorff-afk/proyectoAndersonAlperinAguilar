@@ -1,9 +1,8 @@
-/*let usuario = localStorage.getItem("usuarioEmail");
+let usuario = localStorage.getItem("usuario");
 
-let menu = document.querySelector(".navheader");
+let menu = document.querySelector(".log");
 
-if (usuario = null){
-    jja
-} else {
-    menu.innerHTML = ``
-}*/
+if (usuario.value =! ""){
+    menu.innerHTML = `<li class="botonheader"><a href="./login.html">Bienvenido ${usuario}</a></li>
+                <li class="botonheader"><a href="./register.html"></a></li>` 
+}

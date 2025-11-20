@@ -1,6 +1,13 @@
-/*let logout = document.querySelector("#logout");
+/*/
+window.addEventListener("load", function(){
+  let logoutBot = this.document.querySelector(".botonlogout")  
 
-logout.addEventListener("click", function (e) {
+  logoutBot.addEventListener("click", function(){
     localStorage.clear();
-    location.href = "index.html"
-})*/
+
+    let usuario = document.querySelector(".usuarioSaludo")
+    usuario.style.display ="none"
+    let usuarionav = document.querySelector(".navlogout")
+    usuarionav.style.display =
+  })
+})  /*/

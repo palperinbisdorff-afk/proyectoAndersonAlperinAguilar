@@ -14,7 +14,7 @@ fetch('https://dummyjson.com/products/categories')
         for (let i = 0; i < data.length; i++) {
             console.log(data[i]);
             categorias += `<li>
-                <a href="./category.html?id=${data[i].name}">${data[i].name}</a>
+                <a href="./category.html?id=${data[i].slug}">${data[i].name}</a>
             </li>`
         }
         console.log(categorias)
