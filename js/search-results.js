@@ -30,7 +30,7 @@ let valorBus = queryStringObj.get('buscador');
 let resultadosProd = document.querySelector(".buscar");
 let tituloNoResul = document.querySelector(".titulogeneral");
 let articulos = document.querySelector(".titulogeneral");
-tituloResultados.innerText = `resultados de busqueda para: ${valorBuscado}`
+tituloResultados.innerText = `resultados de busqueda para: ${valorBus}`
 
 
 
