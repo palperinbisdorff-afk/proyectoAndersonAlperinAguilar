@@ -18,7 +18,7 @@ fetch('https://dummyjson.com/products/categories')
         ul.innerHTML = categorias
     })
     .catch(function(error){
-        console.log("Se detecto un error")
+        console.log("Se detecto un error", error)
     })
 
 

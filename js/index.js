@@ -61,7 +61,7 @@ fetch("https://dummyjson.com/products/category/smartphones")
         for (let i = 0; i < 10; i++) {
             console.log(data.products);
             productos += `<article class="artfoto">
-                            <img class="foto" src="${data.products[i].images[2]}" alt="perfume">
+                            <img class="foto" src="${data.products[i].thumbnail}" alt="perfume">
                             <h3>${data.products[i].title}</h3>
                             <p>${data.products[i].description}</p>
                             <p class="enstock">${data.products[i].availabilityStatus}</p>
@@ -75,7 +75,7 @@ fetch("https://dummyjson.com/products/category/smartphones")
 
     })
     .catch(function (error) {
-        console.log("Se detecto un error")
+        console.log("Se detecto un error", error)
     })
 
 /* pagina principal, seccion de productos 2*/
@@ -94,7 +94,7 @@ fetch("https://dummyjson.com/products/category/kitchen-accessories")
         for (let i = 0; i < 10; i++) {
             console.log(data.products);
             productos2 += `<article class="artfoto">
-                            <img class="foto" src="${data.products[i].images[0]}" alt = "producto">
+                            <img class="foto" src="${data.products[i].thumbnail}" alt = "producto">
                             <h3>${data.products[i].title}</h3>
                             <p>${data.products[i].description}</p>
                             <p class="enstock">${data.products[i].availabilityStatus}</p>
@@ -108,5 +108,5 @@ fetch("https://dummyjson.com/products/category/kitchen-accessories")
 
     })
     .catch(function (error) {
-        console.log("Se detecto un error")
+        console.log("Se detecto un error", error)
     })
