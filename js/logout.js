@@ -1,7 +1,5 @@
 let logoutbtn = document.querySelector('.logout-btn')
 
-
-
 window.addEventListener("load", function () {
 
 
