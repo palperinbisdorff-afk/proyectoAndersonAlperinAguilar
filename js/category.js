@@ -1,6 +1,3 @@
-/*Capturar id despues hacer un fetch con ese name/id y dsp modifcar el endpoit el name aparezca en la busqueda 
-despues hacer un bucle y mostrar los productos de esa categoria*/
-
 /* navegacion de forma vertical */
 
 let ul = document.querySelector(".categoriasJS")

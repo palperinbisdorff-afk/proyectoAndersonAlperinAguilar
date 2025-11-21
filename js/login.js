@@ -13,9 +13,9 @@ formLogin.addEventListener('submit', function (event) {
     else if (contrasena == "" || contrasena.length < 6) {
         return alert("Este campo debe contener al menos 6 caracteres")
     } else {
-        localStorage.setItem("usuario", valoremail);
+        localStorage.setItem("usuarioLogin", valoremail);
         formLogin.submit();
     }
-
-
 })  
+
+

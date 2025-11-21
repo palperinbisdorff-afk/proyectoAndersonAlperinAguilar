@@ -18,7 +18,7 @@ formHeader.addEventListener("submit", function (evento) {
         formHeader.submit()
     }
 
-    localStorage.setItem("usuario", buscador.value)
+    localStorage.setItem("busquedaUsuario", buscador.value)
 
 })
 

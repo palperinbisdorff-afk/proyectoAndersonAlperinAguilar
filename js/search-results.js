@@ -21,17 +21,11 @@ fetch('https://dummyjson.com/products/categories')
         console.log("Se detecto un error", error)
     })
 
-/* navegacion de forma vertical */
+/* buscador */
 
 let queryString = location.search;
 let queryStringObj = new URLSearchParams(queryString);
-let busqueda = queryStringObj.get('buscar');
-
-
-let resultadosProd = document.querySelector(".buscar");
-let tituloNoResul = document.querySelector(".titulogeneral");
-let articulos = document.querySelector(".titulogeneral");
-tituloResultados.innerText = `resultados de busqueda para: ${valorBus}`
+let busqueda = queryStringObj.get('busqueda');
 
 let tituloResultados = document.querySelector(".title");
 let productosBuscados = document.querySelector(".items1");

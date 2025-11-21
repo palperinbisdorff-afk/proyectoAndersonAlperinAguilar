@@ -59,14 +59,15 @@ fetch(`https://dummyjson.com/products/${producto}`)
         let foto = document.querySelector(".foto12");
         foto.src = data.thumbnail;
 
-        let fotoHidden = document.querySelector(".fotohidden");
-        fotoHidden.src = data.thumbnail;
-
         let categoria = document.querySelector(".categ");
         categoria.innerText = `${data.category}`;
 
         let stock = document.querySelector(".ultdispo");
         stock.innerText = `Stock disponible: ${data.stock}`;
+
+        let valoraciones = document.querySelector(".valoraciones")
+        valoraciones.innerText = `Rating del producto: ${data.rating} ⭐️`;
+
 
         /* tags */
         let tagsLista = data.tags;
