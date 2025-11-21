@@ -17,6 +17,10 @@ a{
     color: white;
 }
 
+li,ul{
+    list-style: none;
+    color: white;
+}
 /* CSS Header */
 
 .hh{
@@ -80,6 +84,16 @@ a{
 .botonheader a{
     color: white;
     font-size: 15px;
+}
+
+.parrafocontainer{
+ list-style: none;
+    margin: 10px;
+}
+
+.logout-btn{
+    list-style: none;
+    margin: 10px;
 }
 
 .log{
