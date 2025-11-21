@@ -1,15 +1,18 @@
+let logoutbtn = document.querySelector('.logout-btn')
 
-window.addEventListener("load", function(){
-  let logoutBot = this.document.querySelector(".botonheader")  
 
-    logoutBot.addEventListener("click", function(){
+
+window.addEventListener("load", function () {
+
+
+  let saludo = document.querySelector(".container-log")
+  let navLogin = document.querySelector(".log");
+
+  logoutbtn.addEventListener("click", function () {
     localStorage.clear();
 
-    let usuario = document.querySelector(".usuario")
-    usuario.style.display ="none"
-
-    let usuarionav = document.querySelector(".botonheader")
-    usuarionav.style.display = "flex";
+    saludo.style.display = 'none'
+    navLogin.style.display = 'block'
 
   })
 })  

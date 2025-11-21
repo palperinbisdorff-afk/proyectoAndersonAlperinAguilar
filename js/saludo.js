@@ -1,8 +1,12 @@
 let usuario = localStorage.getItem("usuarioLogin");
+let navusuario = document.querySelector(".container-log")
+let parrafousuario = document.querySelector(".parrafocontainer")
 
 let menu = document.querySelector(".log");
 
 if (usuario !== null){
-    menu.innerHTML = `<li class="botonheader"><a href="">Bienvenido ${usuario}</a></li>
-                <li class="botonheader"><a href="#">LOGOUT</a></li>` 
+
+    navusuario.style.display = "block";
+    menu.style.display = 'none'
+    parrafousuario.innerText = `Bienvenido ${usuario}`
 }
